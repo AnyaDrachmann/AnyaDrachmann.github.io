@@ -1,0 +1,290 @@
+@charset "UTF-8";		
+@font-face {
+	font-family: 'Sloppy Ink';
+	src: url('/../Sloppy Ink.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'FogtwoNo5';
+	src: url('../FogtwoNo5.otf')
+}
+@font-face {
+	font-family: 'Adam';
+	src: url('../Adam.otf')
+}
+
+
+/*Baggrundsbillede - brunt papir*/
+.BG{
+    background-image: url(../images/Layer_1.png);
+    width: 320px;
+    height: 1150px;
+    background-attachment: scroll;
+    padding-top: 0px;
+    top: 0px;
+	}
+
+/*Logo & anja er logoets placering*/
+.logo {
+    text-align: center;
+    padding-right: 3%;
+    padding-left: 11%;
+    padding-bottom: 0%;
+    margin-top: 7px;
+    width: 230px;
+}
+
+.anja {
+    margin-left: 20px;
+    margin-top: 9px;
+    width: 269px;
+}
+/*Menu papiret*/
+.menu {
+    background-image: url(../images/menu.png);
+    height: 131px;
+    margin-top: -21px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0% 13%;
+}
+
+/*Hjem knappen*/
+.menu p {
+    padding-top: 25px;
+    font-family: "FogtwoNo5";
+    padding-left: 18px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+
+/*Aarhus kulturby papirstrimmel & p tekst*/
+.kulturby {
+    background-image: url(../images/Papirk.png);
+    height: 142px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -123px;
+} 
+.kulturby p {
+    padding-top: 19px;
+    text-align: center;
+    font-family: "Sloppy Ink";
+    color: #282828;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 46px;
+}
+.cykel {
+    margin-left: 36px;
+    width: 250px;
+    margin-top: -75px;
+}
+
+
+/*Online magasin delen*/
+.online {
+    background-image: url(../images/papiro.png);
+    height: 151px;
+    margin-top: -51px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.online p {
+    text-align: center;
+    font-family: "Sloppy Ink";
+    color: #282828;
+    font-size: 22px;
+    font-weight: 400;
+    padding-top: 19px;
+    margin-top: 42px;
+}
+.top {
+	width: 320px;
+	
+}
+.kamera {
+    width: 169px;
+    margin-top: -73px;
+    margin-left: 60px;
+}
+
+
+/*Her har jeg så fundet ud af, at man kan style teksten sammen med billedet*/
+.responsiv {
+    background-image: url(../images/papirr.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 74px;
+    margin-top: 7px;
+    padding-top: 3px;
+    font-family: "Sloppy Ink";
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+}
+.frimærke1 {
+    width: 132px;
+}
+.frimærke2 {
+    width: 132px;
+    margin-left: 14px;
+    margin-bottom: 4px;
+}
+.kaja {
+    background-image: url(../images/PapirKaja.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 66px;
+    font-family: "Sloppy Ink";
+    text-align: center;
+    font-weight: 400;
+    font-size: 22px;
+    padding-top: 2px;
+}
+.fugl {
+    width: 232px;
+    margin-left: 41px;
+    margin-top: 8px;
+}
+.footerimg {
+    background-image: url(../images/Papir_bund.png);
+    width: 320px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -40px;
+    font-family: "FogtwoNo5";
+    font-weight: 100;
+    font-size: x-small;
+    text-align: right;
+    font-variant: normal;
+    letter-spacing: 4px;
+    padding-top: 12px;
+    padding-bottom: 28px;
+}
+
+
+/*Aarhus Kulturby HTML'ens styling*/
+.brød {
+    margin-top: -72px;
+    font-family: Adam;
+    font-style: normal;
+    font-weight: 400;
+    font-size: large;
+}
+.kulturbg {
+    background-image: url(../images/Layer_1.png);
+    width: 320px;
+    height: 2857px;
+    background-attachment: scroll;
+    padding-top: 0px;
+    top: 0px;
+	}
+.brød h1 {
+    font-size: large;
+    text-align: center;
+    /* [disabled]text-decoration: underline; */
+    font-weight: 900;
+    letter-spacing: 4px;
+    font-family: Adam;
+    font-style: normal;
+}
+.cykel2 {
+    width: 321px;
+}
+
+
+/*Online magasin HTML's styling*/
+.magasinbg {
+    background-image: url(../images/Layer_1.png);
+    width: 320px;
+    height: 1516px;
+    background-attachment: scroll;
+    padding-top: 0px;
+    top: 0px;
+}
+.footerimgonline {
+    background-image: url(../images/Papir_bund.png);
+    width: 320px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 19px;
+    font-family: "FogtwoNo5";
+    font-weight: 100;
+    font-size: x-small;
+    text-align: right;
+    font-variant: normal;
+    letter-spacing: 4px;
+    padding-top: 12px;
+    padding-bottom: 28px;
+}
+.kamera2 {
+    width: 206px;
+    padding-left: 39px;
+    padding-top: 11px;
+}
+
+
+/*Responsivt Website HTML styling*/
+.responsivbg {
+    background-image: url(../images/Layer_1.png);
+    width: 320px;
+    height: 2405px;
+    background-attachment: scroll;
+    padding-top: 0px;
+    top: 0px;
+}
+.footerimgrespons {
+    background-image: url(../images/Papir_bund.png);
+    width: 320px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -40px;
+    font-family: "FogtwoNo5";
+    font-weight: 100;
+    font-size: x-small;
+    text-align: right;
+    font-variant: normal;
+    letter-spacing: 4px;
+    padding-top: 12px;
+    padding-bottom: 28px;
+}
+.frimærke3 {
+    width: 149px;
+    margin-top: 14px;
+}
+.frimærke4 {
+    width: 153px;
+}
+
+
+/*Responsivt Website HTML styling*/
+.kajabg {
+    background-image: url(../images/Layer_1.png);
+    width: 320px;
+    height: 2407px;
+    background-attachment: scroll;
+    padding-top: 0px;
+    top: 0px;
+}
+.footerimgkaja {
+    background-image: url(../images/Papir_bund.png);
+    width: 320px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 23px;
+    font-family: "FogtwoNo5";
+    font-weight: 100;
+    font-size: x-small;
+    text-align: right;
+    font-variant: normal;
+    letter-spacing: 4px;
+    padding-top: 12px;
+    padding-bottom: 28px;
+}
+.fugl2 {
+    width: 218px;
+    margin-top: 14px;
+    margin-left: 42px;
+}
